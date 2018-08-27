@@ -23,6 +23,8 @@ header{
     justify-content: space-between;
     width: 100vw;
     height: 120px;
+    z-index: 9;
+    background: linear-gradient(130.84deg, #11497B -1.09%, #7B51B1 62.25%);
 }
 
 header > img{
@@ -291,6 +293,28 @@ footer > .footer-contact{
 footer > .footer-contact > img{
     height: 224px;
     margin: 128px 64px 0 128px;
+}
+
+.contact-me{
+    margin-top: 110px;
+    margin-right: 128px;
+    list-style: none;
+}
+
+.contact-me > li{
+    margin: 32px;
+}
+
+.contact-me > li > a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.125em;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-me > li > a > img{
+    margin: -10px 4px;
 }
 
 .copy{
