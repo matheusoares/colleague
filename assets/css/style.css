@@ -24,6 +24,7 @@ header{
     width: 100vw;
     height: 120px;
 }
+
 header > img{
     height: 72px;
     margin: auto 90px;
@@ -271,4 +272,26 @@ header > ul > li > a{
     width: 470px;
     height: 377px;
     margin: 90px 128px 0 0;
+}
+
+footer{
+    width: 100%;
+    height: 545px;
+    display: flex;
+    background: #233039;
+}
+
+.copy{
+    height: 50px;
+    width: 100%;
+    align-self: flex-end;
+    background: #101F28;
+}
+
+.copy > p{
+    display: flex;
+    margin: auto;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.125em;
+    color: #ffffff;
 }
