@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:300,400|Raleway:400,700');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    padding: 16px 35px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+    color: #203541;
+    background: #FFD933;
+    border-radius: 5px;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 120px;
+}
+header > img{
+    height: 72px;
+    margin: auto 90px;
+}
+
+header > ul{
+    margin: auto;
+    margin-right: 90px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    list-style: none;
+}
+
+header > ul > li{
+    margin: 20px 0;
+    position: relative;
+}
+
+header > ul > li::before{
+    content: " ";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    top:14px;
+    border-radius: 50%;
+    background: #FFD933;
+}
+
+header > ul > li:nth-child(1)::before{background: transparent;}
+
+header > ul > li > a{
+    padding: 16px;
+    text-decoration: none;
+    color: #FFD933;
+}
+
+.container{
+    width: 98.9vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro{
+    width: 100%;
+    height: 720px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/intro.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.intro > img{
+    height: 94px;
+    margin-top:-32px;
+    position: relative;
+}
+.intro > p{
+    width: 440px;
+    position: relative;
+    margin-top: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color:#ffffff;
+}
+.intro > p:before{
+    content: " ";
+    position: absolute;
+    width: 270px;
+    height: 4px;
+    bottom: 46px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #FFD933;
+}
+
+.about{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title{
+    position: relative;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 6em;
+    font-weight: 400;
+    color: #203541;
+}
+
+.section-title:before{
+    content: " ";
+    position: absolute;
+    width: 90px;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #FFD933;
+}
+
+.about > p{
+    width:680px;
+    margin-top: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.about > .btn{
+    margin-top: 32px;
+}
+
+.service{
+    width: 100%;
+    height: 720px;
+    background-image: url(../img/service.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.service > .section-title{
+    margin-top: 105px;
+    color: #ffffff;
+}
+
+.service-list{
+    margin: 64px 128px; 
+    padding:0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    list-style: none;
+}
+.service-item > img{
+    height: 198px;
+    margin-bottom: -2px;
+}
+.service-item > h3{
+    color: #FFD933;
+    line-height: 60px;
+    margin-bottom: -30px;
+}
+
+.service-item > h3:before{
+    content: " ";
+    position: absolute;
+    width: 90px;
+    height: 4px;
+    background: #FFD933;
+}
+.service-item:nth-child(1) > h3:before{left: 16.2%;}
+.service-item:nth-child(2) > h3:before{left: 46.4%;}
+.service-item:nth-child(3) > h3:before{left: 76.6%;}
+
+.service-item > p{
+    width: 243px;
+    color: #ffffff;
+}
+
+.contact{
+    width: 100%;
+    height: 720px;
+    background:#DEB70F;
+}
+
+.contact-itens{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact > .section-title{
+    margin-top:32px;
+    color: #ffffff;
+}
+
+.contact > .section-title:before{
+    background: #203541;
+}
+
+.contact-form{
+    width: 470px;
+    margin: 64px 0 0 128px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form > label{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    color: #203541;
+}
+
+.contact-form > label > input{
+    height: 40px;
+}
+
+.contact-form > label > input,
+.contact-form > label > textarea{
+    margin:  4px 0 8px -1px;
+    text-indent: 5px;
+    border-radius: 8px;
+    border:0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    resize: none;
+    color: #203541;
+    outline: none;
+}
+
+.contact-form > label > input::placeholder{
+    margin-left: 4px;
+}
+
+.contact-form > .btn{
+    width: 250px;
+    height: 60px;
+    margin-left:47%; 
+    border:0;
+    background:linear-gradient(103.44deg, #11497B 0%, #7B51B1 117.17%);
+    color: #ffffff;
+}
+
+.map{
+    width: 470px;
+    height: 377px;
+    margin: 90px 128px 0 0;
+}

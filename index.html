@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Colleague</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <header>
+        <img src="assets/img/logo.svg" alt="logomarca da colleague">
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">sobre</a></li>
+            <li><a href="">serviços</a></li>
+            <li><a href="">contato</a></li>
+        </ul>
+    </header>
+    <main class="container">
+        <section class="intro">
+            <img src="assets/img/name.svg" alt="texto escrito Colleague">
+            <p>Soluções em desenvolvimento digital</p>
+        </section>
+        <section class="about">
+            <h2 class="section-title">SOBRE</h2>
+            <p>
+                Neste sentido, a mobilidade dos capitais internacionais exige a precisão e a definição das direções preferenciais no sentido
+                do progresso. Neste sentido, a mobilidade dos capitais internacionais. Neste sentido, a mobilidade dos capitais.
+            </p>
+            <a href="about.html" role="button" class="btn">CONHEÇA MAIS</a>
+        </section>
+        <section class="service">
+            <h2 class="section-title">SERVIÇOS</h2>
+            <ul class="service-list">
+                <li class="service-item">
+                    <img src="assets/icon/web.svg" alt="Representando Sites">
+                    <h3>SITES</h3>
+                    <p>A certificação de metodologias que nos auxiliam a lidar com o novo modelo</p>
+                </li>
+                <li class="service-item">
+                    <img src="assets/icon/social.svg" alt="Representando redes sociais">
+                    <h3>REDES SOCIAIS</h3>
+                    <p>A certificação de metodologias que nos auxiliam a lidar com o novo modelo</p>
+                </li>
+                <li class="service-item">
+                    <img src="assets/icon/seo.svg" alt="Representando SEO">
+                    <h3>SEO</h3>
+                    <p>A certificação de metodologias que nos auxiliam a lidar com o novo modelo</p>
+                </li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2 class="section-title">CONTATO</h2>
+            <div class="contact-itens">
+                <form action="" method="post" class="contact-form">
+                    <label for="">
+                        Nome:
+                        <input type="text" name="nome" placeholder="Insira seu Nome">
+                    </label>
+                    <label for="">
+                        E-mail:
+                        <input type="email" name="email" placeholder="exemplo@exemplo.com">
+                    </label>
+                    <label for="">
+                        Mensagem:
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </label>
+                    <button type="submit" class="btn">ENVIAR</button>
+                </form>
+                <div id="map" class="map"></div>
+            </div>
+        </section>
+    </main>
+    <script>
+        function initMap() {
+            var colleague = { lat: -31.735751, lng: -52.331406 };
+            var map = new google.maps.Map(
+                document.getElementById('map'), { zoom: 17, center: colleague });
+            var marker = new google.maps.Marker({ position: colleague, map: map });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCq7lKFgO8yzZBPqHdqHNGzBab3DUV9s0I&callback=initMap">
+    </script>
+</body>
+</body>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</html>
