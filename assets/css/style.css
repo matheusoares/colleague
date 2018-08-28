@@ -365,3 +365,32 @@ footer > .footer-contact > img{
     font-size: 1.125em;
     color: #ffffff;
 }
+
+
+@media (max-width: 575.98px) {  }
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 991.98px) { 
+    header > img{
+        width: 45px;
+        margin: 12px 24px;
+    }
+    header > ul{
+      display: none;
+    }
+    .intro > img{
+        height: 50px;
+    }
+    .intro > p{
+        width: auto;
+        font-size: 1em;
+        margin-top: 16px;
+    }
+    .intro > p:before{
+        width: 170px;
+        bottom: 23px;
+    }
+ }
+
+@media (max-width: 1199.98px) { }
