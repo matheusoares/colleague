@@ -426,6 +426,7 @@ footer > .footer-contact > img{
 
     .contact{
         height: auto;
+        padding-bottom: 64px;
     }
 
     .contact-itens{
