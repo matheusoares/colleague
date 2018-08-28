@@ -423,6 +423,49 @@ footer > .footer-contact > img{
     .service-item:nth-child(1) > h3:before,
     .service-item:nth-child(2) > h3:before,
     .service-item:nth-child(3) > h3:before{left: 36%;}
+
+    .contact{
+        height: auto;
+    }
+
+    .contact-itens{
+      flex-direction: column;  
+    }
+    
+    .contact-form{
+        width: auto;
+        margin: 32px 8px 0;
+    }
+
+    .contact-form > label > input,
+    .contact-form > label > textarea{
+        margin:  4px;
+    }
+
+    .contact-form > .btn{
+        width: auto;
+        padding: 16px 27px;
+        font-size: 1em;
+        height: auto;
+        margin-top: 8px;
+        margin-left:5px;   
+    }
+    
+    .map{
+        height: 300px;
+        width: 290px;
+        margin: 8px auto;
+    }    
+
+    footer > .footer-contact{
+        flex-direction: column;
+    }
+
+    footer > .footer-contact > img{
+        height: 100px;
+        margin: 16px 0;
+    }
+        
  }
 
 @media (max-width: 1199.98px) { }
