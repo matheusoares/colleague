@@ -379,10 +379,18 @@ footer > .footer-contact > img{
     header > ul{
       display: none;
     }
+    .section-title{
+        font-size: 3.3em;
+    }
+
+    .intro{height: 370px;}
+
     .intro > img{
         height: 50px;
+        margin-top:0;
     }
-    .intro > p{
+    .intro > p,
+    .about > p{
         width: auto;
         font-size: 1em;
         margin-top: 16px;
@@ -391,6 +399,30 @@ footer > .footer-contact > img{
         width: 170px;
         bottom: 23px;
     }
+
+    .about > .btn {
+        margin-top: 16px;
+    }
+    .btn {
+        padding: 16px 27px;
+        font-size: 1em;
+    }
+
+    .service{
+        height: auto;
+        background-position-y: -203px;
+        padding-bottom: 203px;
+        margin-bottom: -203px;
+    }
+
+    .service-list{
+        margin: 64px 128px;
+        flex-direction: column; 
+    }
+    
+    .service-item:nth-child(1) > h3:before,
+    .service-item:nth-child(2) > h3:before,
+    .service-item:nth-child(3) > h3:before{left: 36%;}
  }
 
 @media (max-width: 1199.98px) { }
