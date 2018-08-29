@@ -34,13 +34,13 @@ header.large{
 }
 
 header.small{
-    height: 32px;;
+    height: 80px;;
     background: linear-gradient(130.84deg, #11497B -1.09%, #7B51B1 62.25%);
     transition: all .5s ease;
 }
 
 header.small > img{
-    height: 32px;
+    height: 48px;
     transition: all .5s ease;
 }
 
@@ -371,6 +371,7 @@ footer > .footer-contact > img{
 @media (max-width: 767.98px) {  }
 
 @media (max-width: 991.98px) { 
+    header.large > img{opacity: 0;}
     header > img{
         width: 45px;
         margin: 12px 24px;
