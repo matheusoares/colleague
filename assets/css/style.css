@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Advent+Pro:300,400|Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:300,400|Raleway:100,400,700');
 
 body{
     margin: 0;
@@ -105,7 +105,7 @@ header > ul > li > a{
 }
 
 .intro{
-    height: 720px;
+    height: 880px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -123,7 +123,7 @@ header > ul > li > a{
     position: relative;
 }
 .intro > p{
-    width: 440px;
+    /* width: 440px; */
     position: relative;
     margin-top: 32px;
     font-family: 'Raleway', sans-serif;
@@ -131,7 +131,7 @@ header > ul > li > a{
     text-align: center;
     color:#ffffff;
 }
-.intro > p:before{
+/* .intro > p:before{
     content: " ";
     position: absolute;
     width: 270px;
@@ -141,7 +141,7 @@ header > ul > li > a{
     right: 0;
     margin: 0 auto;
     background: #FFD933;
-}
+} */
 
 .about{
     height: 370px;
@@ -157,9 +157,9 @@ header > ul > li > a{
     position: relative;
     margin: 0px;
     text-align: center;
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 6em;
-    font-weight: 400;
+    font-weight: 100;
     color: #203541;
 }
 
@@ -252,7 +252,6 @@ header > ul > li > a{
 
 .contact > .section-title{
     margin-top:32px;
-    color: #ffffff;
 }
 
 .contact > .section-title:before{
