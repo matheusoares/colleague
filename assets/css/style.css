@@ -363,7 +363,6 @@ footer > .footer-contact > img{
 @media (max-width: 767.98px) {  }
 
 @media (max-width: 991.98px) { 
-    header.large > img{opacity: 0;}
     header > img{
         width: 45px;
         margin: 12px 24px;
@@ -375,17 +374,20 @@ footer > .footer-contact > img{
         font-size: 3.3em;
     }
 
-    .intro{height: 370px;}
+    .intro{height: 570px;align-items: center;}
 
     .intro > img{
         height: 50px;
         margin-top:0;
+        margin-left:  0;
     }
     .intro > p,
     .about > p{
         width: auto;
         font-size: 1em;
         margin-top: 16px;
+        text-align: center;
+        margin-left:  0;
     }
     .intro > p:before{
         width: 170px;
