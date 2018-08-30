@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Advent+Pro:300,400|Raleway:100,400,700');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:400,700|Raleway:100,400,700');
 
 body{
     margin: 0;
@@ -45,8 +45,8 @@ header.small > img{
 }
 
 header > img{
-    height: 32px;
-    margin: auto 90px;
+    height: 48px;
+    margin: auto 0 auto 128px;
     transition: all .5s ease;
 }
 
@@ -110,7 +110,7 @@ header > ul > li > a{
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     background-image: url(../img/intro.svg);
     background-size:cover;
@@ -118,30 +118,21 @@ header > ul > li > a{
 }
 
 .intro > img{
-    height: 94px;
+    height: 120px;
     margin-top:-32px;
+    margin-left: 128px;
     position: relative;
 }
 .intro > p{
-    /* width: 440px; */
+    width: 440px;
     position: relative;
-    margin-top: 32px;
+    margin-top: 16px;
+    margin-left:  128px;
     font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
-    text-align: center;
+    text-align: left;
     color:#ffffff;
 }
-/* .intro > p:before{
-    content: " ";
-    position: absolute;
-    width: 270px;
-    height: 4px;
-    bottom: 46px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    background: #FFD933;
-} */
 
 .about{
     height: 370px;
@@ -155,11 +146,12 @@ header > ul > li > a{
 
 .section-title{
     position: relative;
-    margin: 0px;
+    margin: -34px 0 0 0;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 6em;
     font-weight: 100;
+    letter-spacing: -6px;
     color: #203541;
 }
 
@@ -167,7 +159,7 @@ header > ul > li > a{
     content: " ";
     position: absolute;
     width: 90px;
-    height: 4px;
+    height: 3px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -360,7 +352,7 @@ footer > .footer-contact > img{
 
 .copy > p{
     text-align: center;
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Zilla Slab Highlight', sans-serif;
     font-size: 1.125em;
     color: #ffffff;
 }
