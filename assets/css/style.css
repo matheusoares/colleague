@@ -17,6 +17,8 @@ body{
     cursor: pointer;
 }
 
+#btnTrigger{display: none;}
+
 header{
     position: fixed;
     display: flex;
@@ -367,6 +369,47 @@ footer > .footer-contact > img{
         width: 45px;
         margin: 12px 24px;
     }
+
+    #btnTrigger{display: block;}
+
+    .hamb-out{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        right: 24px;
+        top: 8px;
+        border:none;
+        background: transparent;
+        cursor: pointer;
+        z-index: 10;
+        outline: none;
+        transition: all .5s;
+    }
+    
+    .hamb{
+        position: absolute;
+        width: 48px;
+        height: 2px;
+        left: 5px;
+        top: 20px;
+        border:none;
+        background: #FFD933;
+        transition: all .5s;
+    }
+    .hamb::after,
+    .hamb::before{
+        content: " ";
+        position: absolute;
+        width: 48px;
+        height: 2px;
+        left: 0px;
+        background: #FFD933;
+        transition: all .5s;
+    }
+    .hamb::after{top: 10px;}
+    
+    .hamb::before{top: 20px;}
+
     header > ul{
       display: none;
     }
