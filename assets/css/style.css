@@ -42,12 +42,13 @@ header.small{
 }
 
 header.small > img{
-    height: 48px;
+    margin-top: -10px;
+    height: 98px;
     transition: all .5s ease;
 }
 
 header > img{
-    height: 48px;
+    height: 118px;
     margin: auto 0 auto 128px;
     transition: all .5s ease;
 }
