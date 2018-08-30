@@ -368,6 +368,7 @@ footer > .footer-contact > img{
     header > img{
         width: 45px;
         margin: 12px 24px;
+        z-index: 10;
     }
 
     #btnTrigger{display: block;}
@@ -410,8 +411,49 @@ footer > .footer-contact > img{
     
     .hamb::before{top: 20px;}
 
-    header > ul{
-      display: none;
+    .hidden-menu{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        overflow: hidden!important;
+        top: 0;
+        left: 0;
+        background: #11497B;
+        z-index: 9;
+        list-style: none;
+        flex-direction: column;
+        justify-content: center;
+        transition: all .5s ease-in-out;
+    }
+    
+    ul.hidden-menu > li > a{
+        color: #FFD933;
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+
+    header > ul > li::before{top: 32px;}
+    header > ul > li:nth-child(1)::before{background: #FFD933;}
+
+    .menu-hidded{	
+        opacity: 0!important;
+        visibility: hidden!important;
+        transition: all .5s ease-in-out;
+    }
+    
+    .open > .hamb{
+        background: #FFD933;
+        height: 0;
+        transition: all .5s ease-in-out;
+    }
+    .open > .hamb::after,
+    .open > .hamb::before{
+        background: #FFD933;
+        transition: all .5s ease-in-out;
+    }
+    .open > .hamb::after{top: 20px;transform: rotate(-45deg); transition: all .5s;}
+    
+    .open > .hamb::before{top: 20px;transform: rotate(45deg); transition: all .5s;
     }
     .section-title{
         font-size: 3.3em;
