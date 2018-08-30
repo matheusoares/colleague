@@ -42,14 +42,14 @@ header.small{
 }
 
 header.small > img{
-    margin-top: -10px;
+    margin-top: -5px;
     height: 98px;
     transition: all .5s ease;
 }
 
 header > img{
-    height: 118px;
-    margin: auto 0 auto 128px;
+    height: 132px;
+    margin: -5px 0 5px 128px;
     transition: all .5s ease;
 }
 
@@ -224,9 +224,9 @@ header > ul > li > a{
     height: 4px;
     background: #FFD933;
 }
-.service-item:nth-child(1) > h3:before{left: 16.2%;}
-.service-item:nth-child(2) > h3:before{left: 46.4%;}
-.service-item:nth-child(3) > h3:before{left: 76.6%;}
+.service-item:nth-child(1) > h3:before{left: 14.7%;}
+.service-item:nth-child(2) > h3:before{left: 46.7%;}
+.service-item:nth-child(3) > h3:before{left: 78.7%;}
 
 .service-item > p{
     width: 243px;
@@ -275,18 +275,14 @@ header > ul > li > a{
 .contact-form > label > input,
 .contact-form > label > textarea{
     margin:  4px 0 8px -1px;
-    text-indent: 5px;
-    border-radius: 8px;
+    text-indent: 16px;
+    border-radius: 5px;
     border:0;
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
     resize: none;
     color: #203541;
     outline: none;
-}
-
-.contact-form > label > input::placeholder{
-    margin-left: 4px;
 }
 
 .contact-form > .btn{
@@ -320,8 +316,8 @@ footer > .footer-contact{
 }
 
 footer > .footer-contact > img{
-    height: 224px;
-    margin: 128px 64px 0 128px;
+    height: 250px;
+    margin: 115px 64px 0 128px;
 }
 
 .contact-me{
@@ -355,7 +351,7 @@ footer > .footer-contact > img{
 
 .copy > p{
     text-align: center;
-    font-family: 'Zilla Slab Highlight', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.125em;
     color: #ffffff;
 }
@@ -367,8 +363,8 @@ footer > .footer-contact > img{
 
 @media (max-width: 991.98px) { 
     header > img{
-        width: 45px;
-        margin: 12px 24px;
+        width: 98px;
+        margin: -26px 24px;
         z-index: 10;
     }
 
@@ -419,7 +415,7 @@ footer > .footer-contact > img{
         overflow: hidden!important;
         top: 0;
         left: 0;
-        background: #11497B;
+        background: linear-gradient(130.84deg, #11497B -1.09%, #7B51B1 62.25%);;
         z-index: 9;
         list-style: none;
         flex-direction: column;
@@ -518,6 +514,8 @@ footer > .footer-contact > img{
         margin: 32px 8px 0;
     }
 
+    .contact-form > label{text-indent:4px;}
+
     .contact-form > label > input,
     .contact-form > label > textarea{
         margin:  4px;
@@ -535,7 +533,7 @@ footer > .footer-contact > img{
     .map{
         height: 300px;
         width: 95%;
-        margin: 8px auto;
+        margin: 32px auto 16px;
     }    
 
     footer > .footer-contact{
@@ -546,7 +544,28 @@ footer > .footer-contact > img{
         height: 100px;
         margin: 16px 0;
     }
-        
+    
+    footer > .footer-contact > .contact-me{
+        margin: -10px 0;
+        padding: 0;
+    } 
+
+    footer > .footer-contact > .contact-me img{
+        width: 25px;
+        margin-right: -1px;
+    }
+
+    footer > .footer-contact > .contact-me a{
+        font-size: 1em;
+    }
+
+    footer > .footer-contact > .contact-me a > span{
+        margin-left: 28px;
+    }
+
+    .copy > p{
+        font-size: 0.8em;
+    }
  }
 
 @media (max-width: 1199.98px) { }
