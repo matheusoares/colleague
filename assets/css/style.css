@@ -541,8 +541,8 @@ footer > .footer-contact > img{
     }
 
     footer > .footer-contact > img{
-        height: 155px;
-        margin: 16px 0 -32px;
+        height: 215px;
+        margin: 16px 0 -52px;
     }
     
     footer > .footer-contact > .contact-me{
@@ -552,15 +552,15 @@ footer > .footer-contact > img{
 
     footer > .footer-contact > .contact-me img{
         width: 25px;
-        margin-right: -1px;
+        margin: -6px 4px;
+    }
+
+    .contact-me > li {
+        margin: 32px -15px 32px 8px;
     }
 
     footer > .footer-contact > .contact-me a{
-        font-size: 1em;
-    }
-
-    footer > .footer-contact > .contact-me a > span{
-        margin-left: 16px;
+        font-size: 0.8em;
     }
 
     .copy > p{
