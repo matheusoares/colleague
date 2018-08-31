@@ -541,8 +541,8 @@ footer > .footer-contact > img{
     }
 
     footer > .footer-contact > img{
-        height: 100px;
-        margin: 16px 0;
+        height: 155px;
+        margin: 16px 0 -32px;
     }
     
     footer > .footer-contact > .contact-me{
