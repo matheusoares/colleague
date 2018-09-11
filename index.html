@@ -29,8 +29,8 @@
             <span class="hamb"></span>
         </button>
         <ul class="hidden-menu menu-hidded" id="menuHidded">
-            <li><a href="">home</a></li>
-            <li><a href="">sobre</a></li>
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">sobre</a></li>
             <li><a href="">serviços</a></li>
             <li><a href="">contato</a></li>
         </ul>
@@ -41,17 +41,17 @@
             <p>Clientes diferentes. Produtos diferentes. Soluções diferentes</p>
         </section>
         <section class="about">
-            <h2 class="section-title">SOBRE</h2>
+            <h2 class="section-title">Sobre</h2>
             <p>
-                A be Different é uma agência digital com foco em solucionar o problema do cliente da forma mais eficaz.
-                Somos uma equipe centrada em sempre buscar o melhor e mais atual no mundo da tecnologia, para trazer mais
-                segurança, produtividade e comodidade ao cliente.
+                A be Different é uma agência digital com foco em solucionar o problema do cliente da forma mais eficaz. Somos uma equipe
+                centrada em sempre buscar o melhor e mais atual no mundo da tecnologia, para trazer mais segurança, produtividade
+                e comodidade ao cliente.
 
             </p>
             <a href="about.html" role="button" class="btn">CONHEÇA MAIS</a>
         </section>
         <section class="service">
-            <h2 class="section-title">SERVIÇOS</h2>
+            <h2 class="section-title">Serviços</h2>
             <ul class="service-list">
                 <li class="service-item">
                     <img src="assets/icon/web.svg" alt="Representando Sites">
@@ -71,7 +71,7 @@
             </ul>
         </section>
         <section class="contact">
-            <h2 class="section-title">CONTATO</h2>
+            <h2 class="section-title">Entre em contato Conosco!</h2>
             <div class="contact-itens">
                 <form action="" method="post" class="contact-form">
                     <label for="">
@@ -95,10 +95,10 @@
             <section class="footer-contact">
                 <img src="assets/img/logo.svg" alt="logomarca da beDifferent">
                 <ul class="contact-me">
-                    <li style="opacity:0;">
+                    <li>
                         <a href="#">
-                            <img src="assets/icon/pin.svg" alt="localização beDifferent">Rua Doutor Joaquim Duval,301. Pelotas
-                            - RS.
+                            <img src="assets/icon/pin.svg" alt="localização beDifferent">
+                            <p>Pelotas Parque Tecnológico, Av. Domingos de Almeida, 1785 - Areal, Pelotas - RS.</p>
                         </a>
                     </li>
                     <li>
@@ -125,7 +125,7 @@
     </main>
     <script>
         function initMap() {
-            var beDifferent = { lat: -31.735751, lng: -52.331406 };
+            var beDifferent = { lat: -31.7541593, lng: -52.3196357 };
             var map = new google.maps.Map(
                 document.getElementById('map'), { zoom: 17, center: beDifferent });
             var marker = new google.maps.Marker({ position: beDifferent, map: map });
@@ -140,4 +140,4 @@
 </body>
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-</html>
+</html>        
