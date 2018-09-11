@@ -237,16 +237,21 @@ header > ul > li > a{
 }
 
 .contact-itens{
+    margin-top: 64px;
     display: flex;
     justify-content: space-between;
 }
 
 .contact > .section-title{
-    margin-top:32px;
+    position: absolute;
+    margin: 50px 0;
+    left: 128px;
 }
 
 .contact > .section-title:before{
-    background: #203541;
+    background: #FFD933;
+    left: -357px;
+    top: 45px;
 }
 
 .contact-form{
@@ -287,8 +292,6 @@ header > ul > li > a{
     height: 60px;
     margin-left:47%; 
     border:0;
-    background:linear-gradient(103.44deg, #11497B 0%, #7B51B1 117.17%);
-    color: #ffffff;
 }
 
 .map{
