@@ -41,32 +41,44 @@
             <p>Clientes diferentes. Produtos diferentes. Soluções diferentes</p>
         </section>
         <section class="about">
-            <h2 class="section-title">Sobre</h2>
+            <h2 class="section-title">Quem somos?</h2>
             <p>
-                A be Different é uma agência digital com foco em solucionar o problema do cliente da forma mais eficaz. Somos uma equipe
-                centrada em sempre buscar o melhor e mais atual no mundo da tecnologia, para trazer mais segurança, produtividade
-                e comodidade ao cliente.
-
+                Somos mais que uma agência de desenvolvimento digital, somos uma equipe centrada em 
+                sempre solucionar o problema do cliente da forma mais atual e eficaz, proporcinando mais 
+                segurança, produtividade e comodidade. Temos nosso foco voltado as novas tendências do mercado 
+                tecnológico, tendo como missão proporcionar ao cliente a melhor solução para seu produto e melhor 
+                gestão da equipe de trabalho.
             </p>
-            <a href="about.html" role="button" class="btn">CONHEÇA MAIS</a>
         </section>
         <section class="service">
-            <h2 class="section-title">Serviços</h2>
+            <h2 class="section-title">O que fazemos?</h2>
             <ul class="service-list">
                 <li class="service-item">
                     <img src="assets/icon/web.svg" alt="Representando Sites">
                     <h3>DEV</h3>
-                    <p>Desenvolvimento de sistemas, sites e apps focando na melhor solução para seu problema.</p>
+                    <ul>
+                        <li>Sites</li>
+                        <li>Apps</li>
+                        <li>Sistemas</li>
+                        <li>E-commerce</li>
+                    </ul>
                 </li>
                 <li class="service-item">
                     <img src="assets/icon/social.svg" alt="Representando redes sociais">
-                    <h3>REDES SOCIAIS</h3>
-                    <p>Atualização de conteúdo e crescimento no número de seguidores e clientes através das mídias sociais.</p>
+                    <h3>Web Marketing</h3>
+                    <ul>
+                        <li>Social Media</li>
+                        <li>E-mail Marketing</li>
+                    </ul>                
                 </li>
                 <li class="service-item">
                     <img src="assets/icon/seo.svg" alt="Representando SEO">
-                    <h3>SEO</h3>
-                    <p>Otimização de seu site para alcançar melhor posicionamento nos buscadores na internet.</p>
+                    <h3>Sales Strategy</h3>
+                    <ul>
+                        <li>SEO</li>
+                        <li>Social Media ADS</li>
+                        <li>Google Adwords</li>
+                    </ul>                
                 </li>
             </ul>
         </section>
@@ -125,7 +137,7 @@
     </main>
     <script>
         function initMap() {
-            var beDifferent = { lat: -31.7541593, lng: -52.3196357 };
+            var beDifferent = { lat: -31.7541639, lng: -52.3174417 };
             var map = new google.maps.Map(
                 document.getElementById('map'), { zoom: 17, center: beDifferent });
             var marker = new google.maps.Marker({ position: beDifferent, map: map });
