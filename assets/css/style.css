@@ -161,7 +161,7 @@ header > ul > li > a{
     content: " ";
     position: absolute;
     width: 90px;
-    height: 3px;
+    height: 2px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -219,7 +219,7 @@ header > ul > li > a{
     position: relative;
     display: block;
     width: 90px;
-    height: 4px;
+    height: 2px;
     background: #FFD933;
 }
 
@@ -243,6 +243,17 @@ header > ul > li > a{
     flex-direction: column;
 }
 
+.team .section-title:before,
+.contact > .section-title:before{
+    content: " ";
+    position: relative;
+    display: block;
+    width: 90px;
+    height: 2px;
+    margin: 0px 2px;
+    background: #FFD933;
+}
+
 .team > .service-list{
     margin-top:158px;
 }
@@ -263,6 +274,11 @@ header > ul > li > a{
     top: 6px;
     left: -3px;
 }
+
+.team .service-item:first-child h4 b{color: #FFD933;}
+.team .service-item:nth-child(2) h4 b{color: #11497B;}
+.team .service-item:nth-child(3) h4 b{color: #11497B;}
+.team .service-item:last-child h4 b{color: #5A4EA0;}
 
 .team .service-item:first-child h4::before{background: #FFD933;}
 .team .service-item:nth-child(2) h4::before{background: #11497B;}
@@ -297,11 +313,11 @@ header > ul > li > a{
     left: 128px;
 }
 
-.contact > .section-title:before{
+/* .contact > .section-title:before{
     background: #FFD933;
     left: -357px;
     top: 45px;
-}
+} */
 
 .contact-form{
     width: 470px;
@@ -583,8 +599,6 @@ footer{
     }
 
     .contact > .section-title:before{
-        background: #FFD933;
-        left: -211px;
         top: 95px;
     }
 
