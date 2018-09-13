@@ -548,7 +548,6 @@ footer{
         width: auto;
         font-size: 1em;
         text-align: left;
-        margin: 16px 12px;
     }
     .intro > p:before{
         width: 170px;
@@ -578,7 +577,7 @@ footer{
     }
     
     .service-list img{
-        height: 104px;
+        height: 124px;
     }
 
     .service-item{
