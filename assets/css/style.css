@@ -313,12 +313,6 @@ header > ul > li > a{
     left: 128px;
 }
 
-/* .contact > .section-title:before{
-    background: #FFD933;
-    left: -357px;
-    top: 45px;
-} */
-
 .contact-form{
     width: 470px;
     margin: 64px 0 0 128px;
@@ -571,7 +565,7 @@ footer{
     }
 
     .service-list{
-        margin: 64px 16px;
+        margin: 64px 16px 0;
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -584,6 +578,13 @@ footer{
         margin-bottom: 44px;
     }
 
+    .team .service-item h4 b{
+        display: none;
+    }
+
+    .separator {
+        margin: 28px auto 58px;
+    }
     .contact{
         height: auto;
         padding-bottom: 64px;
