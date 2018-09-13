@@ -489,9 +489,8 @@ footer{
     .about p{
         width: auto;
         font-size: 1em;
-        margin-top: 16px;
         text-align: left;
-        margin-left:  0;
+        margin: 16px 12px;
     }
     .intro > p:before{
         width: 170px;
@@ -521,7 +520,7 @@ footer{
     }
     
     .service-list img{
-        height: 64px;
+        height: 104px;
     }
 
     .service-item{
@@ -534,7 +533,7 @@ footer{
     }
 
     .contact > .section-title {
-        position: relative;
+        position: absolute;
         margin: 30px 0 0 11px;
         left: 0;
         text-align: left;
@@ -548,7 +547,7 @@ footer{
 
     .contact-itens{
       flex-direction: column; 
-      margin: 8px 0; 
+      margin: 128px 0; 
     }
     
     .contact-form{
