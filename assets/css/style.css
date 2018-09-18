@@ -575,7 +575,8 @@ footer{
     }
     
     .service-list img{
-        height: 128px;
+        height: 158px;
+        opacity: 0.8;
     }
 
     .service-item{
@@ -583,7 +584,8 @@ footer{
     }
 
     .team img{
-        height:144px;
+        height:160px;
+        opacity: 1;
     }
 
     .team .service-item h4 b{
