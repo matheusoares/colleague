@@ -15,6 +15,13 @@ body{
     background: #FFD933;
     border-radius: 5px;
     cursor: pointer;
+    transition: all .5s ease;
+}
+
+.btn:hover{
+    color: #FFD933;
+    background: #233039;
+    transition: all .5s ease;
 }
 
 #btnTrigger{display: none;}
@@ -379,6 +386,15 @@ header > ul > li > a{
     list-style: none;
     padding: 0;
     width: 305px;
+}
+
+.contact-inf ul li img{
+    transition: all .5s ease;
+}
+
+.contact-inf ul li img:hover {
+    filter:invert(40) saturate(243%) contrast(105%) brightness(115%);
+    transition: all .5s ease;
 }
 
 .contact-inf > .separator{
