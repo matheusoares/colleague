@@ -8,6 +8,7 @@ $(document).on("scroll", function() {
 	
 });
 
+
 var btn = document.getElementById("btnTrigger");
 var menu = document.getElementById("menuHidded");
 
@@ -23,6 +24,7 @@ btn.addEventListener('click', function(){
 	}
 
 });
+
 
 var map, popup, Popup;
 
@@ -114,4 +116,18 @@ function definePopupClass() {
         });
   };
 }
-  
+
+
+$(document).on('click', 'a[href^="#"]', function (event) {
+  event.preventDefault();
+
+  menu.classList.toggle('menu-hidded');
+
+  btn.classList.remove('open');
+		$('body').css("overflow", "initial");
+
+  $('html, body').animate({
+    scrollTop: $($.attr(this, 'href')).offset().top - 80
+   }, 500);
+});
+
