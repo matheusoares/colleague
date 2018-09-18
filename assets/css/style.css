@@ -575,11 +575,15 @@ footer{
     }
     
     .service-list img{
-        height: 138px;
+        height: 128px;
     }
 
     .service-item{
         margin-bottom: 44px;
+    }
+
+    .team img{
+        height:144px;
     }
 
     .team .service-item h4 b{
