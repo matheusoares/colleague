@@ -258,6 +258,10 @@ header > ul > li > a{
     margin-top:158px;
 }
 
+.team img{
+    height:220px;
+}
+
 .team .service-item h4 {
     position: relative;
     font-weight: 400;
@@ -571,7 +575,7 @@ footer{
     }
     
     .service-list img{
-        height: 124px;
+        height: 138px;
     }
 
     .service-item{
