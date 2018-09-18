@@ -208,13 +208,13 @@ header > ul > li > a{
 .service-item > img{
     height: 198px;
 }
-.service-item > h3{
+.service-item h3{
     color: #FFD933;
     line-height: 60px;
-    margin-bottom: -30px;
+    margin-bottom: -8px;
 }
 
-.service-item > h3:before{
+.service-item h3:before{
     content: " ";
     position: relative;
     display: block;
@@ -226,6 +226,7 @@ header > ul > li > a{
 .service-item ul {
     padding: 0;
     margin-top: 16px;
+    margin-left: 20px;
 }
 
 .service-item  li{
@@ -256,6 +257,8 @@ header > ul > li > a{
 
 .team > .service-list{
     margin-top:158px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .team img{
@@ -570,22 +573,43 @@ footer{
 
     .service-list{
         margin: 64px 16px 0;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     
     .service-list img{
-        height: 158px;
+        height: 84px;
         opacity: 0.8;
     }
 
     .service-item{
         margin-bottom: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service-item h3{
+        line-height: 0;
+        margin-bottom: 20px;
+    }
+
+    .service-item h3::before{
+        display: none
+    }
+
+
+    .team .service-list{
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .team img{
-        height:160px;
+        height: 168px;
         opacity: 1;
+    }
+
+    .team .service-item{
+        display: initial;
     }
 
     .team .service-item h4 b{
